@@ -6,5 +6,5 @@ kv_namespaces = [
   { binding = "OAUTH_KV", id = "4a57bfc888cd4340ba85812f16e8fb3a" }
 ]
 
-[site]
-bucket = "./static" 
+[assets]
+include = ["static/**/*"] 
