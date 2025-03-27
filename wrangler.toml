@@ -1,0 +1,7 @@
+name = "braze-mcp-server"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+kv_namespaces = [
+  { binding = "OAUTH_KV", id = "4a57bfc888cd4340ba85812f16e8fb3a" }
+] 
