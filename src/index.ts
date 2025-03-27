@@ -4,7 +4,6 @@ import { McpServer, ResourceTemplate } from "@modelcontextprotocol/sdk/server/mc
 import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
 import { z } from "zod";
 import OAuthProvider from "@cloudflare/workers-oauth-provider";
-import fetch from "node-fetch";
 
 interface Env {
 	BRAZE_API_KEY: string;
